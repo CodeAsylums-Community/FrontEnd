@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form Validation</title>
+    </head>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+    <body>
+        <div>
+            <form name="myForm" onsubmit="return(validateForm())">
+                <table>
+                    <tr>
+                        <td>
+                            Name : 
+                        </td>
+                        <td>
+                            <input type="text" name="name">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Reg No : 
+                        </td>
+                        <td>
+                            <input type="number" name="regno">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Password : 
+                        </td>
+                        <td>
+                            <input type="password" name="pass">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            E-Mail : 
+                        </td>
+                        <td>
+                            <input type="email" name="email">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Age : 
+                        </td>
+                        <td>
+                            <input type="number" name="age">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Zip Code : 
+                        </td>
+                        <td>
+                            <input type="number" name="zip">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            State : 
+                        </td>
+                        <td>
+                            <input type="text" name="State">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Country : 
+                        </td>
+                        <td>
+                            <select name = "country">
+                                <option value = "-1" selected>...</option>
+                                <option value = "1">USA</option>
+                                <option value = "2">UK</option>
+                                <option value = "3">INDIA</option>
+                            </select>
+                        </td>
+                    </tr>
+                </table>
+                <input type="submit" value="Submit">
+                <input type="reset" value="Reset">
+                <p>Made with ❤️ by <a href="https://github.com/AryanFelix">Aryan Felix</a></p>
+            </form>
+        </div>
+    </body>
+</html>
