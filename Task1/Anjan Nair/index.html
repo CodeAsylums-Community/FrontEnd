@@ -10,7 +10,7 @@
 	<header>
 <div class="login">
     <h1>LOGIN</h1>
-    <form name="inputer" action="index.html" method="POST" method="post">
+    <form name="inputer" action="index.html" method="post">
     <div class="input">
         <input type="text" name="name" placeholder="FIRST NAME" size=30 required="">
     </div>
@@ -22,22 +22,22 @@
     <ul> </ul>
     <div class="input">
         <ul>  </ul>
-         <input type="text" name="phone" color = "white" placeholder="PHONE NUMBER" required="" onclick="username()">
+         <input type="text" name="phone" color = "white" placeholder="PHONE NUMBER" required="" onclick="username_check()">
     </div>
     <ul> </ul>
     <div class="input">
         <ul>  </ul>
-         <input type="text" name="email" color = "white" placeholder="EMAIL" required="" onclick="phonenumber()">
+         <input type="text" name="email" color = "white" placeholder="EMAIL" required="" onclick="number_check()">
     </div>
     <ul> </ul>
     <div class="input">
         <ul>  </ul>
-         <input type="text" name="git" color = "white" placeholder="GITHUB PROFILE LINK" required="" onclick="emailcheck()">
+         <input type="text" name="git" color = "white" placeholder="GITHUB PROFILE LINK" required="" onclick="email_check()">
     </div>
     <ul> </ul>
     <div class="input">
         <ul>  </ul>
-         <input type="text" name="address" color = "white" placeholder="ADDRESS" required="" onclick="githubcheck()">
+         <input type="text" name="address" color = "white" placeholder="ADDRESS" required="" onclick="githubprofile_check()">
     </div>
     <ul> </ul>
     <div class="input">
@@ -50,7 +50,7 @@
          <input type="password" name="pwd2" color = "white" placeholder="RE-ENTER PASSWORD" required="">
     </div>
     <ul> </ul>
-    <input type="submit" name="signin" class="but" value="SIGN IN" id="bold">
+    <input type="submit" name="signin" class="but" value="SIGN IN" onmouseover="password_match()" id="bold">
      <ul> </ul>
     </form>
 </div>
