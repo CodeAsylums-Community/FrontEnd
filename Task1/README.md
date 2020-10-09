@@ -1,6 +1,6 @@
 <p align="center">
 <a href="https://community.codeasylums.com">
-<img src="https://raw.githubusercontent.com/CodeAsylums-Community/CodeAsylums-Community-Website/master/assets/img/favicon.png" width="250px" alt="<Repo> Logo"/>
+<img src="https://i.ibb.co/6wyhHNc/Code-Asylums-Community-1.png" width="700px" alt="<Repo> Logo"/>
 </a>
 </p>
 
