@@ -1,0 +1,129 @@
+<html>
+<head>
+  <title>Form</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+  img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+  </style>
+</head>
+<body>
+<a href="https://www.codeasylums.com"><img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.codeasylums.com%2Fimg%2Flogo.png&f=1&nofb=1" width="200" height="130" > </a>
+<p align=center>ASPIRE. LEARN. CODE. NETWORK. BUILD.</p>
+<form class="my-form" id="styles.css" action="" onsubmit="Validate()">
+  <div class="container">
+    <h1 align="center">Membership Form</h1><br/><br/>
+    <h3>Personal Details</h3>
+    <br/>
+    <div>
+    <ul>
+
+      <li>
+        <div class="grid grid-2">
+          <input type="text" id="Fname" placeholder="First Name" required>
+          <input type="text"  id="Lname" placeholder="Last Name / Initial" required>
+        </div>
+      </li>
+
+      <li>
+      <div class="grid grid-2">
+          <input type="text" id="DOB" placeholder="D.O.B" required>
+          <input type="tel" id="phone-Number" placeholder="Phone" required>
+      </div>
+      </li>
+      <li>
+        <input type="email" id="mailid" placeholder="Email" required>
+      </li>
+      <li>
+        <textarea name="address" id="address" placeholder="Address" rows="2 " cols="50" required></textarea>
+      </li>
+    </ul>
+  </div>
+    <br/><br/>
+
+    <h3>Subscription Details</h3>
+    <br/>
+    <div>
+    <ul>
+     <li>
+        <select required>
+          <option selected disabled>Duration</option>
+          <option>1 Year subscription</option>
+          <option>5 Year subscription   ( save 6% )</option>
+          <option>10 Year subscription  ( save 13% )</option>
+          <option>Lifetime subscription ( save 50% - One time offer )</option>
+        </select>
+      </li>
+    </ul>
+    </div>
+    <div>
+    <ul>
+      <li>
+        <input type="checkbox" id="newsl"><label for="newsl">Get monthly newsletters.</label><br/>
+        <input type="checkbox" id="offer"><label for="offer">Get e-mails on special offers.</label>
+      </li>
+    </ul>
+    </div>
+
+    <br/><br/><br/>
+
+    <div><b>Payment:</b></div>
+    <br/>
+
+    <div class="grid grid-3">
+      <button type="button" class="btn-grid" name="Gateway 1" onclick="window.location.href='';">
+        <span class="back"><img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.mybcu.org%2Fimages%2Ficons%2Fnew_icons_02_10_15%2Fdebit_card_account_earn_apy_beacon_credit_union_loans_rates_low_lynchburg_and_central_virginia.png&f=1&nofb=1"
+          widdth="30" height="30">
+        </span>
+        <span class="front">Gateway 1</span>
+      </button>
+
+       <button type="button" class="btn-grid" name="Gateway 2" onclick="window.location.href='';">
+        <span class="back"><img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2Fe%2Fe1%2FUPI-Logo-vector.svg%2F1200px-UPI-Logo-vector.svg.png&f=1&nofb=1"
+          widdth="15" height="15">
+        </span>
+        <span class="front">Gateway 2</span>
+      </button>
+
+        <button type="button" class="btn-grid" name="Gateway 3" onclick="window.location.href='';">
+          <span class="back"><img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.utfinancial.org%2Fsites%2Fdefault%2Ffiles%2Fimages%2FOnline-Banking.png&f=1&nofb=1"
+            widdth="20" height="25">
+          </span>
+          <span class="front">Gateway 3</span>
+        </button>
+
+    </div>
+    <br/><br/><br/><br/>
+
+    <div>
+    <ul>
+      <li>
+        <input type="checkbox" id="terms">
+        <label for="terms">I have read and agreed with <a href="">the terms and conditions.</a></label>
+      </li>
+      <li>
+        <div class="grid grid-3">
+           <div class="required-msg">- REQUIRED FIELDS</div>
+            <button class="btn-grid" type="submit" >
+              <span class="back">
+                <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.materialui.co%2FmaterialIcons%2Ffile%2Fcloud_upload_grey_192x192.png&f=1&nofb=1" width="25" height="25" alt="">
+              </span>
+              <span class="front">SUBMIT</span>
+            </button>
+            <button class="btn-grid" type="reset" >
+              <span class="back">
+                <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn2.iconfinder.com%2Fdata%2Ficons%2Fweb%2F512%2FRefresh_Arrow-256.png&f=1&nofb=1" width="25" height="25" alt="">
+              </span>
+              <span class="front">RESET</span>
+            </button>
+        </div>
+      </li>
+    </ul>
+    </div>
+</form>
+<script src="app.js"></script>
+</body>
+</html>
