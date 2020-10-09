@@ -1,9 +1,11 @@
+/*In general*/
 *{
     margin: auto;
     padding: 10;
     font-family: Courier New;
 }
 
+/* The header of the form*/
 header{
     background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
     height: 100vh;
@@ -11,6 +13,7 @@ header{
     background-position: center;
 }
 
+/*The login beautification */
  .login{
     position: absolute;
     top: 50%;
@@ -27,6 +30,8 @@ header{
      margin-bottom: 50px;
      padding: 19px 0;
  }
+
+ /* The input beautification */
 
  .input{
      width: 100%;
@@ -48,6 +53,8 @@ header{
      margin: 10px;
      
  }
+
+ /*The button beautification*/
 
  .but{
      width: 100%;
@@ -92,6 +99,7 @@ header{
  font-weight: bold;
 }
 
+/*Placeholder beautification */
 ::placeholder {
 color: black;
 }
