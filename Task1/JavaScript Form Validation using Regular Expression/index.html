@@ -1,0 +1,98 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js"></script>
+    <link rel="icon" type="image/png" href="./logo.png">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js" integrity="sha384-LtrjvnR4Twt/qOuYxE721u19sVFLVSA4hf/rRt6PrZTmiPltdZcI7q7PXQBYTKyf" crossorigin="anonymous"></script>  
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-social/5.1.1/bootstrap-social.css">  
+</head>
+
+<body class="bgcolor">
+    <h1 class="header bg-dark">CodeAsylums Community Registration Form</h1>
+    <img src="logo.png" alt="LOGO">
+    <div class="container">
+        
+        <form onsubmit="return validation()">
+
+            <br>
+
+            <div class="form-group">
+                <label>Name: </label>
+                <input type="text" id="name" placeholder="What should we call you?" class="form-control">
+                <span id="name_error" class="text-danger font-weight-bold"> </span>
+            </div>
+
+            <div class="form-group">
+                <label>Registration No.: </label>
+                <input type="text" id="reg" placeholder="Show us your licence No." class="form-control">
+                <span id="reg_error" class="text-danger font-weight-bold"> </span>
+            </div>
+
+            <div class="form-group">
+                <label>Email: </label>
+                <input type="text" id="email" placeholder="I Promise We wont Spam You" class="form-control">
+                <span id="email_error" class="text-danger font-weight-bold"> </span>
+            </div>
+
+            <div class="form-group">
+                <label>Mobile  No.: </label>
+                <input type="text" id="mobile" placeholder="Can Connect over a Call" class="form-control">
+                <span id="number_error" class="text-danger font-weight-bold"> </span>
+            </div>
+
+            <div class="form-group">
+                <label>Linkedin Username: </label>
+                <input type="text" name="" id="linkedin" placeholder="Your Professional Social Media URL" class="form-control">
+                <span id="url_error" class="text-danger font-weight-bold"> </span>
+            </div>
+
+            <div class="form-group">
+                <label>Password: </label>
+                <input type="text" id="password" placeholder="Will keep it Safe and Protected" class="form-control">
+                <span id="password_error" class="text-danger font-weight-bold"> </span>
+            </div>
+
+            <div class="form-group">
+                <label>Re-Enter Password: </label>
+                <input type="text" id="repassword" placeholder="Re-Enter Password Just to be Sure" class="form-control">
+                <span id="repass_error" class="text-danger font-weight-bold"> </span>
+            </div>
+
+            <div class="form-group">
+                <label>City: </label>
+                <input type="text" id="city" placeholder="Where are you from?" class="form-control">
+                <span id="city_error" class="text-danger font-weight-bold"> </span>
+            </div>
+
+            <div class="form-group">
+                <label>Country: </label>
+                <input type="text" id="country" placeholder="Your Nationality" class="form-control">
+                <span id="country_error" class="text-danger font-weight-bold"> </span>
+            </div>
+
+            <br>
+
+            <input type="Submit" name="" class="btn btn-primary">
+            <br><br>
+
+        </form>
+        
+    </div>
+    <br><br><br><br>
+
+    <footer>
+           <div class="row justify-content-center">             
+                <p class="footer_name">Developed with ❤ by CodeAsylums Community</p>
+           </div>
+
+        </footer>
+    
+</body>
+
+</html>

@@ -1,0 +1,50 @@
+.header {
+    background-color:#EDBB99 ;
+    text-align: center;
+    color: #F8C471;
+    height: 60px;
+}
+
+.container {
+    border: 1px solid black;
+    margin-bottom: 20px;
+    margin-top: 50px;
+    border-radius: 20px;
+    background-color: indigo;
+}
+
+.bgcolor{
+    background-color: mediumpurple;
+}
+
+label{
+    color: whitesmoke;
+}
+
+.form-group {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.btn {
+    margin-left: 47%  ;
+}
+
+img {
+    width: 15%;
+    height: 20%;
+    margin-left: 43%;
+    margin-bottom: -10px;
+}
+
+footer {
+    background-color:#414a4c;
+    color: honeydew;
+    padding: 20px 20px 20px 0px;
+    margin-bottom: 0px;
+    height:80px;  
+}
+
+.footer_name {
+    margin-top: 10px;
+}
