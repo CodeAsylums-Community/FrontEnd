@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    scroll-behavior: smooth;
+}
+
+html, body {
+    height: 100%;
+}
+
+.container-fluid {
+    height: 100%;
+    text-align: center;
+}
+
+.mostView {
+    background: #000000;
+    color: #ffffff;
+}
+
+.mostView .heading h1 , .mostLike .heading h1{
+    padding: 20px 40px;
+    font-weight: 800;
+}
+
+.mostView .carousel .carousel-caption h5, .mostLike .carousel-inner .carousel-caption h5{
+    font-weight: 800;
+}
+
+.mostView .carousel .carousel-caption p, .mostLike .carousel-inner .carousel-caption p{
+    font-weight: 600;
+}
+
+.mostView .carousel, .mostLike .carousel-inner {
+    padding: 30px;
+}
+
+.footer .next {
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+.footer a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.mostLike {
+    background:white;
+    color: #000000;
+}
+
+.mostLike .footer .next {
+    -ms-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+}
+
+.mostLike .footer a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.mostLike .carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
+
+footer {
+    text-align: center;
+    background: #000000;
+    margin: 0;
+    color: #ffffff;
+}
+
+footer p {
+    margin: 0;
+    padding: 5px;
+}
+
+footer a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: red;
+    text-decoration: none;
+}
