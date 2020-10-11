@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>FORM</title>
+	<meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script> 
+</head>
+<body>
+<header>
+
+<div class="login">
+    <h1>LOGIN</h1>
+    <form name="inputer" action="index.html" method="post">
+    <div class="input">
+        <input type="text" name="name" placeholder="FIRST NAME" size=30 required="">
+    </div>
+    <ul> </ul>
+    <div class="input">
+        <ul> </ul>
+         <input type="text" name="username" color = "white" placeholder="USERNAME" required="">
+    </div>
+    <ul> </ul>
+    <div class="input">
+        <ul>  </ul>
+         <input type="text" name="phone" color = "white" placeholder="PHONE NUMBER" required="" onclick="username_check()">
+    </div>
+    <ul> </ul>
+    <div class="input">
+        <ul>  </ul>
+         <input type="text" name="email" color = "white" placeholder="EMAIL" required="" onclick="number_check()">
+    </div>
+    <ul> </ul>
+    <div class="input">
+        <ul>  </ul>
+         <input type="text" name="git" color = "white" placeholder="GITHUB PROFILE LINK" required="" onclick="email_check()">
+    </div>
+    <ul> </ul>
+    <div class="input">
+        <ul>  </ul>
+         <input type="text" name="address" color = "white" placeholder="ADDRESS" required="" onclick="githubprofile_check()">
+    </div>
+    <ul> </ul>
+    <div class="input">
+        <ul>  </ul>
+         <input type="password" name="pwd1" color = "white" placeholder="PASSWORD" required="">
+    </div>
+    <ul> </ul>
+    <div class="input">
+        <ul>  </ul>
+         <input type="password" name="pwd2" color = "white" placeholder="RE-ENTER PASSWORD" required="">
+    </div>
+    <ul> </ul>
+    <input type="submit" name="signin" class="but" value="SIGN IN" onmouseover="password_match()" id="bold">
+     <ul> </ul>
+    </form>
+</div>
+
+</header>
+</body>
+</html>
