@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+<script src="index.js"></script>
+<title>Form Validation</title>
+</head>
+<body>
+    <div class="container">
+    <form name="Form" onsubmit="return(validateForm())">
+        <div class="row">
+            <div class="col-width-25">
+                <label for="regno">Registration Number</label>
+            </div>
+            <div class="col-width-75">
+                <input type="number" id="regno" name="regno" placeholder="Registration Number" required>
+            </div>
+        </div>
+        <div class="row">
+        <div class="col-width-25">
+            <label for="fname">First Name</label>
+        </div>
+        <div class="col-width-75">
+            <input type="text" id="fname" name="firstname" placeholder="First Name" required> 
+        </div>
+        </div>
+        <div class="row">
+        <div class="col-width-25">
+            <label for="lname">Last Name</label>
+        </div>
+        <div class="col-width-75">
+            <input type="text" id="lname" name="lastname" placeholder="Last Name" required>
+        </div>
+        </div>
+        <div class="row">
+            <div class="col-width-25">
+                <label for="telnum">Telphone No.</label>
+            </div>
+            <div class="col-width-75">
+                <input type="number" id="telnum" name="telnum" placeholder="Telephone No." required>
+            </div>
+        </div>
+        <div class="row">
+        <div class="col-width-25">
+            <label for="country">Country</label>
+        </div>
+        <div class="col-width-75">
+            <select id="country" name="country">
+            <option value="australia">India</option>
+            <option value="canada">China</option>
+            <option value="usa">USA</option>
+            <option value="other">Other</option>
+            </select>
+        </div>
+        </div>
+        <div class="row">
+            <div class="col-width-25">
+                <label for="emailid">Email</label>
+            </div>
+            <div class="col-width-75">
+                <input type="email" id="emailid" name="emailid" placeholder="Email" required>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-width-25">
+                <label for="password">Password</label>
+            </div>
+            <div class="col-width-75">
+                <input type="password" id="password" name="password" placeholder="Password" required>
+            </div>
+        </div>
+        <div class="row">
+        <div class="col-width-25">
+            <label for="feedback">Your Feedback</label>
+        </div>
+        <div class="col-75">
+            <textarea id="feedback" name="feedback" placeholder="Write something.." style="height:200px"></textarea>
+        </div>
+        </div>
+        <div class="row">
+        <input type="submit" value="Submit">
+        </div>
+    </form>
+    </div>
+
+</body>
+</html>
