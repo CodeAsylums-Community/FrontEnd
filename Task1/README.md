@@ -16,8 +16,8 @@
 
 ## Contributors
 Follow the guidelines mentioned in [Contribution Guidelines](https://github.com/CodeAsylums-Community/template/blob/main/CONTRIBUTIONS.md)
-- <a href="https://github.com/AryanFelix">Aryan Felix</a>
 - <a href="https://github.com/anjannair">Anjan Nair</a>
+- <a href="https://github.com/AryanFelix">Aryan Felix</a>
 
 
 ## License

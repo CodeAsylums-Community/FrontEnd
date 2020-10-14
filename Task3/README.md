@@ -7,7 +7,7 @@
 # FrontEnd
 
 > 
->  Redesign the CA website (https://ca- community.akshatvg.com). Use CSS to beautify the page..
+>  Redesign the CA website (https://ca-community.akshatvg.com). Use CSS to beautify the page..
 
 ---
 [![DOCS](https://img.shields.io/badge/Documentation-see%20docs-green?style=flat-square&logo=appveyor)](INSERT_LINK_FOR_DOCS_HERE) 
