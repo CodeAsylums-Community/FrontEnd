@@ -1,0 +1,94 @@
+/*Font*/
+.para
+{
+  font-family: 'Cabin Sketch', cursive;
+  color: #d3d3d3;
+  font-size: 22px;
+}
+
+.title{
+  font-family: 'Black Ops One', cursive;
+  font-size: 60px;
+  color: #d3d3d3;
+}
+
+/*Button Config*/
+.pa-inline-buttons .et_pb_button_module_wrapper {
+    display: inline-block;
+}
+
+.pa-inline-buttons {
+    text-align: center !important;
+}
+
+.button {
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button2 {
+  width: 100%;
+}
+.button1 {background-color: black;}
+
+/*Video Placement*/
+.column-3 {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+.column-2 {
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.centralise{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+/*General Styles*/
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #161819;
+}
+
+img{
+  align: center;
+}
+
+footer {
+  background-color: #333;
+  text-align: center;
+  height: 63px;
+  font-size: 35px;
+  color: white;
+}
+
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}

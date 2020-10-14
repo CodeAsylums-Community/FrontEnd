@@ -16,8 +16,8 @@
 
 ## Contributors
 Follow the guidelines mentioned in [Contribution Guidelines](https://github.com/CodeAsylums-Community/template/blob/main/CONTRIBUTIONS.md)
-- <a href="https://github.com/<Contributor>">Contributor Name</a>
-- <a href="https://github.com/<Contributor>">Contributor Name</a>
+- <a href="https://github.com/<Contributor>">Praveen M</a>
+
 
 ## License
 [![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org)
