@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Videos</title>
+  <meta charset="utf-8">
+  <style>
+    videocontainer {
+  position: relative;
+  padding-bottom: 56.26%;
+  padding-top: 35px;
+  height: 0;
+  overflow: hidden;
+}
+.video-container iframe,
+.video-container object,
+.video-container embed {
+  position: absolute;
+  bottom: 0px;
+  top: 70;
+  left: 45;
+  width: 25%;
+  height: 30%;
+}
+.video-wrapper {
+  width: 640px;
+  float:none;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+}
+.header {
+  background-color: red;
+  padding: 20px;
+  text-align: center;
+}
+h1 {
+  text-shadow: 2px 2px 5px #5AB9EA;
+  font-family: sans-serif;
+  font-style: italic;
+}
+  </style>
+</head>
+<body bgcolor="pink">
+  <div class="video-wrapper">
+    <div class="video-container">
+  <iframe width="300" height="200" src="https://www.youtube.com/embed/zP6iJbpPcIw" frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen
+  align="middle" padding bottom=0px ></iframe>
+   </div>
+</div>
+<div class="header">
+  <h1>Animation Videos</h1>
+</div>
+</body>
+<div class="vid">
+
+  <video src="v1.mp4" controls="controls" loop="loop" autoplay="autoplay" width="200"></video>
+  <video src="v2.mp4" controls="controls" loop="loop" width="200"></video>
+  <video src="v3.mp4" controls="controls" loop="loop" width="200"></video>
+  <video src="v4.mp4" controls="controls" loop="loop" width="200"></video>
+</div>
+</html>
