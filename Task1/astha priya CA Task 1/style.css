@@ -1,0 +1,51 @@
+.header {
+    text-align: center;
+    color: #F8C471;
+    height: 100px;
+    border-style: double;
+    padding: 0.4cm;
+}
+
+.container {
+    border: 3px double rgb(199, 31, 31);
+    margin-bottom: 20px;
+    margin-top: 50px;
+    border-radius: 20px;
+    background-color: rgb(0, 0, 0);
+}
+
+.bgcolor{
+    background-color: rgb(39, 39, 39);
+}
+
+label{
+    color: rgb(255, 255, 255);
+}
+
+.form-group {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.btn {
+    margin-left: 47%  ;
+}
+
+img {
+    width: 15%;
+    height: 20%;
+    margin-left: 43%;
+    margin-bottom: -10px;
+}
+
+footer {
+    background-color:#474e50;
+    color: rgb(255, 255, 255);
+    padding: 20px 20px 20px 0px;
+    margin-bottom: 0px;
+    height:80px;  
+}
+
+.footer_name {
+    margin-top: 10px;
+} 
