@@ -1,0 +1,76 @@
+<html>
+<head>
+  <title>Form</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+  img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+  </style>
+</head>
+<body>
+
+
+<form class="my-form" id="styles.css" action="" onsubmit="Validate()">
+  <div class="container">
+    <h1 align="center">Registration Form</h1><br/><br/>
+    <h3>Personal Details</h3>
+    <br/>
+    <div>
+    <ul>
+
+      <li>
+        <div class="grid grid-2">
+          <input type="text" id="Fname" placeholder="First Name" required>
+	</div>
+	</li>
+	<li>
+        <div class="grid grid-2">
+          <input type="text"  id="Lname" placeholder="Last Name / Initial" required>
+        </div>
+      </li>
+
+      <li>
+      <div class="grid grid-2">
+          <input type="text" id="DOB" placeholder="D.O.B" required>
+	</div>
+	</li>
+	<li>
+      <div class="grid grid-2">
+
+      <input type="tel" id="phone-Number" placeholder="Phone" required>
+      </div>
+      </li>
+      <li>
+        <input type="email" id="mailid" placeholder="Email" required>
+      </li>
+      <li>
+        <textarea name="address" id="address" placeholder="Address" rows="2 " cols="50" required></textarea>
+      </li>
+    </ul>
+  </div>
+    <br/><br/>
+
+    
+    	     <button class="btn-grid" type="submit" >
+              <span class="back">
+                
+              </span>
+              <span class="front">SUBMIT</span>
+            </button><br></br>
+            <button class="btn-grid" type="reset" >
+              <span class="back">
+                
+              </span>
+              <span class="front">RESET</span>
+            </button>
+        </div>
+      </li>
+    </ul>
+    </div>
+</form>
+<script src="validate.js"></script>
+</body>
+</html>
