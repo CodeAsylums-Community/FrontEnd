@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+//for head part
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js"></script>
+    <link rel="icon" type="image/png" href="https://codeasylums.com/img/logo.png">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js" integrity="sha384-LtrjvnR4Twt/qOuYxE721u19sVFLVSA4hf/rRt6PrZTmiPltdZcI7q7PXQBYTKyf" crossorigin="anonymous"></script>  
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-social/5.1.1/bootstrap-social.css">  
+     </head>
+
+
+//body
+<body class="bgcolor">
+    <h1 class="header bg-dark">CodeAsylums Community Registration Form</h1>
+    <img src="https://avatars3.githubusercontent.com/u/51023892?s=200&v=4" alt="LOGO">
+
+    <div class="container">
+    
+        <form onsubmit="return validation()">
+            <br>
+            
+            <div class="form-group">
+                <label>Name: </label>
+                <input type="text" id="name" placeholder="Enter name" class="form-control" required>
+                <span id="name_error" class="text-danger font-weight-bold"> </span>
+            </div>
+
+            <div class="form-group">
+                <label>College: </label>
+                <input type="text" id="college" placeholder="Enter your college name" class="form-control">
+                <span id="college_error" class="text-danger font-weight-bold"> </span>
+            </div>
+
+            <div class="form-group">
+                <label>Registration Number: </label>
+                <input type="text" id="reg" placeholder="Enter the 6 digit reg. no." class="form-control" required>
+                <span id="reg_error" class="text-danger font-weight-bold"> </span>
+            </div>
+
+            <div class="form-group">
+                <label>Email: </label>
+                <input type="text" id="email" placeholder="Enter Email" class="form-control" required>
+                <span id="email_error" class="text-danger font-weight-bold"> </span>
+            </div>
+
+            <div class="form-group">
+                <label>Mobile  No.: </label>
+                <input type="text" id="mobile" placeholder="Don't add 0 or country code" class="form-control" required>
+                <span id="number_error" class="text-danger font-weight-bold"> </span>
+            </div>
+
+            <div class="form-group">
+                <label>Linkedin Profile: </label>
+                <input type="text" name="" id="linkedin" placeholder="Enter linkedin profile link" class="form-control">
+                <span id="url_error" class="text-danger font-weight-bold"> </span>
+            </div>
+            
+            <div class="form-group">
+            <label>Gender: </label>
+            <label class="radio-inline">
+            <input type="radio" name="optradio" checked>Male &nbsp;&nbsp;
+            </label>
+            <label class="radio-inline">
+            <input type="radio" name="optradio">Female &nbsp;&nbsp;
+            </label>
+            <label class="radio-inline">
+            <input type="radio" name="optradio">Other
+            </label>
+            </div>
+
+            <div class="form-group">
+                <label>Password: </label>
+                <input type="password" id="password" class="form-control" required>
+                <span id="password_error" class="text-danger font-weight-bold"> </span>
+            </div>
+
+            <div class="form-group">
+                <label>Re-Enter Password: </label>
+                <input type="password" id="repassword" placeholder="Re-Enter Password" class="form-control" required>
+                <span id="repass_error" class="text-danger font-weight-bold"> </span>
+            </div>
+            
+            <div class="form-group">
+                <label><input type="checkbox" name="remember"> Remember me</label>
+            </div>
+
+            <br>
+
+            <input type="Submit" name="" class="btn btn-primary">
+            <br><br>
+
+        </form>
+
+    </div>
+    <br><br><br><br>
+
+    <footer>
+           <div class="row justify-content-center">             
+                <p class="footer_name">Developed with ❤ by CodeAsylums Community</p>
+           </div>
+
+        </footer>
+
+</body>
+
+</html> 
