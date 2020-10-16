@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>REGiSTRATION FORM</title>
+	<meta charset="utf-8">
+   <style>
+    *{
+    margin: auto;
+    padding: 10;
+    font-family: Times New Roman;
+}
+
+/* The header style*/
+header{
+    background-color: skyblue;
+    height: 101vh;
+    background-size: cover;
+    background-position: center;
+}
+
+/*The registration style */
+ .reg{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+    color: maroon;   
+ }
+
+
+ .reg h1{
+     float: left;
+     font-size: 30px;
+     border-bottom: 6px solid #B22222;
+     margin-bottom: 5px;
+     padding: 19px 0;
+ }
+
+ /* The input style */
+
+ .input{
+     width: 100%;
+     overflow: hidden;
+     font-size: 20px;
+     padding: 8px 0;
+     margin: 8px 0;
+     color: maroon;
+ }
+
+ .input input{
+     border: none;
+     outline: none;
+     background: none;
+     color: black;
+     font-size: 18px;
+     width: 80%;
+     float: left;
+     margin: 10px;
+     
+ }
+
+ /*The button style*/
+
+ .bul{
+     width: 100%;
+     background: #ffb6c1;
+     border: 2px solid #c70039;
+     color: white;
+     padding: 5px;
+     display: inline-block;
+     transition: 0.7s ease;
+ }
+
+ .bul :hover{
+    background-color:#40bad5 ;
+    color: black;
+
+ }
+ .input :hover{
+    border-bottom: 1px solid #ea6227 ;
+ }
+ .title h1{
+     font-size: 40px;
+     color: white;
+ }
+
+ .button{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform:translate(-50%,-50%);     
+ }
+ .bul{border-radius: 12px;
+      transition: 0.7s ease;}
+
+ .bul{
+     padding: 10px 30px;
+     color: maroon;
+     text-decoration: 10%;
+     transition: 1s ease;
+ }
+ #bol{
+ font-weight: bold;
+}
+
+/*Placeholder style */
+::placeholder {
+color: black;
+}
+
+ .bul:hover{
+    background-color:#40bad5;
+    color: black;
+}
+   </style>
+    <script src="script1.js"></script> 
+</head>
+<body>
+<header>
+
+<div class="reg">
+    <h1>REGISTRATION FORM</h1>
+    <form name="inp1" action="#" method="post">
+    <div class="input">
+     NAME:   <input type="text" name="name" placeholder="ENTER YOUR NAME" size=30 required="">
+    </div>
+  
+    <div class="input">
+    USERNAME:    <input type="text" name="username" placeholder="ENTER YOUR USERNAME" required="">
+    </div>
+    
+    <div class="input">
+    PHONE NUMBER:   <input type="text" name="phone" placeholder="ENTER YOUR PHONE NUMBER" required="" onclick="username_check()">
+    </div>
+   
+    <div class="input">
+    EMAIL:  <input type="text" name="email" placeholder="ENTER YOUR EMAIL" required="" onclick="number_check()">
+    </div>
+    
+    <div class="input">
+    ADDRESS:  <input type="text" name="address" placeholder="ENTER YOUR ADDRESS" required="" onclick="email_check()">
+    </div>
+  
+    <div class="input">
+    PASSWORD:  <input type="password" name="pwd1" placeholder="ENTER YOUR PASSWORD" required="">
+    </div>
+
+    <div class="input">
+   
+    RE-ENTER PASSWORD:  <input type="password" name="pwd2" placeholder="ENTER YOUR RE-ENTER PASSWORD" required="">
+    </div>
+   
+    <input type="submit" name="signup" class="bul" value="SIGN UP" onmouseover="password_match()" id="bol">
+   
+    </form>
+</div>
+
+</header>
+</body>
+</html>
