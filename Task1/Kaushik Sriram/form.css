@@ -1,0 +1,47 @@
+
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #07253E;
+}
+
+.form {
+  align-items: center;
+  background-color: #93c2db ;
+  padding: 50px;
+  margin: auto;
+  width: 30%;
+}
+
+input[type=text],[type=password],[type=date],select{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input:focus {
+  background-color: lightblue;
+  border: 1px solid #555;
+}
+
+input[type=submit] {
+  width: 30%;
+  background-color: white;
+  color: black;
+  padding: 7px 10px;
+  margin: 8px 150px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #07253E;
+  color: white;
+}
+.msg{
+  color: red;
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="form.css">
+    <title>Kaushik's Form</title>
+
+    <script src="validation.js"></script>
+
+     </head>
+
+  <body>
+     <div class="form">
+
+            <form name="form">
+                
+            First Name:<br>
+            <input type="text" name="firstname" required onblur="validateFn()"/><br>
+            <span id="fn"></span><br>
+            
+            Last Name:<br>
+            <input type="text" name="lastname" required onblur="validateLn()"/><br>
+            <span id="ln"></span><br>
+
+            Gender: <br>
+            <select name="gender" id="gender" required >
+                <option value="none" selected disabled hidden>Select an Option</option> 
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+                <option value="Other">Other</option>
+            </select><br>
+
+            Date of Birth: <br>
+            <input type="date" name="dob"  required/><br>
+            
+            Email:<br>
+            <input type="text" name="email" required onblur="validateEmail()"/><br>
+            <span id="email"></span><br>
+            
+            Password:<br>
+            <input type="password" name="password" required onblur="validatePass()"/><br>
+            <span id="pass"></span><br>
+
+            Phone:<br>
+            <input type="text" name="number" placeholder="xxx-xxx-xxxx" required onblur="validateNum()"/><br>
+            <span id="ph"></span> <br>
+
+            Address:<br>
+            <input type="text" name="address" required/><br>
+            <span id="addr"></span> <br>
+
+            Registration number: <br>
+            <input type="text" name="regnum" required onblur="validateRegnum()"> 
+            <span id="regn"></span><br>
+
+            <input type="submit" value="Submit">
+    </form>
+ </div>
+
+</body>
+</html>
